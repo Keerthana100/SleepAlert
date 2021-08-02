@@ -376,7 +376,7 @@ public final class FaceTrackerActivity extends AppCompatActivity {
             }
             else if (state1 == 0 && state2 ==0 ) {
                 begin = System.currentTimeMillis();
-                if(begin - stop > 1500 )
+                if(begin - stop > 2000 )
                 {
                     alert_box();
                     flag = 1;
